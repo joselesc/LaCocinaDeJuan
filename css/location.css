@@ -1,0 +1,140 @@
+/*---Formulario---*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #181818;
+    color: #fff;
+    line-height: 1.6;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 1.5em;
+}
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+}
+
+.sucursales ul {
+    list-style: none;
+    padding: 0;
+}
+.sucursales ul li {
+    padding: .3em;
+}
+.sucursales li fa-solid fa-map-location-dot {
+    margin-right: 10px;
+
+}
+
+.logo {
+    text-align: center;
+    font-size: 3em;
+}
+
+.logo span {
+    color: #B70E21;
+}
+
+.sucursales-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.sucursales-wrapper > * {
+    padding: 1em;
+}
+.sucursales 
+
+/* sucursales */
+.sucursales {
+    background: #000;
+}
+
+.sucursales {
+    text-align: center;
+    margin: 0 0 2rem 0;
+}
+
+
+
+/* LARGE SIZE */
+@media(min-width: 700px) {
+    body {
+        padding: 0 4em;
+    }
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p,
+    .gmap_canvas {
+        text-align: left;
+    }
+}
+.gmap_canvas {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporción 16:9 */
+    height: 0;
+    overflow: hidden;
+    margin: 0 10%; /* Margen del 5% en los lados derecho e izquierdo */
+}
+
+.sucursales {
+    font-family: Arial, sans-serif;
+    background-color: #141414; /* Color de fondo */
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none; /* Eliminar los puntos de la lista */
+    padding: 0;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+
+.sucursal i {
+    margin-left: 10px; /* Espacio entre el texto y el icono */
+}.boton-volver {
+    display: inline-block;
+    padding: 0.6rem 1.5rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    border: 1px solid white;
+    font-size: 18px;
+}
+
+.boton-volver:hover {
+    transform: scale(1.1);
+    background-color: #B70E21;
+    border: 1px solid white;
+}
+
+.boton-volver:hover div {
+    cursor: pointer;
+}
+
+.boton-volver div {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    display: none;
+}
+
+/*diseño para la sección de inicio*/
+
+
+
+
+
+

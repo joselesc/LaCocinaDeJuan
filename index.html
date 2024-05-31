@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="icon" type=image/png href="imagenes/logo.png">
+    <!-- ANIMATE CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- GOOGLE FONTs -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img src="assets/images/logo.avif" alt="" />
+      </div>
+
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="pages/form.html">Contacto</a>
+        <a href="pages/location.html">Sucursales</a>
+        <a href="pages/servicios.html">Servicios</a>
+        <div class="navbar dropdown show">
+          <a
+            class="dropdown-toggle"
+            href="#"
+            role="button"
+            id="dropdownMenuLink"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Menús
+          </a>
+          <div
+            class="row dropdown-menu flex-column flex-md-row justify-content-evenly"
+            aria-labelledby="dropdownMenuLink"
+          >
+            <a
+              class="dropdown-item d-flex align-items-center"
+              href="./pages/menuTragos.html"
+            >
+              <i class="fa-solid fa-wine-glass-empty me-2"></i>
+              <span>Menú de Tragos</span>
+            </a>
+            <a
+              class="dropdown-item d-flex align-items-center"
+              href="./pages/menuPlatos.html"
+            >
+              <i class="fa-solid fa-utensils me-2"></i>
+              <span>Menú de platos</span>
+            </a>
+            <!-- <a class="dropdown-item d-flex align-items-center" href="menu_postres.html">
+                        <i class="fa-solid fa-ice-cream me-2"></i>
+                        <span>Menú de postres</span>
+                    </a> -->
+          </div>
+        </div>
+      </nav>
+      <div class="icons">
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a class="contact-btn" href="pages/login.html">Iniciar sesión</a>
+      </div>
+    </header>
+
+    <div class="home">
+      <div class="main-home">
+        <div class="home-image">
+          <img src="./assets/images/Fachada.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <section class="flex-md-row">
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="3000">
+            <a href="pages/menuPlatos.html">
+              <img
+                src="./assets/images/Restaurantes_Comida.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </a>
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="h3-carousel">PLATOS PARA DISFRUTAR</h3>
+              <h5 class="h5-descripcion">
+                Las mejores opciones en un menu de ensueño para deleitarte.
+              </h5>
+            </div>
+          </div>
+          <div class="carousel-item" data-interval="3000">
+            <img
+              src="./assets/images/postres.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="h3-carousel">DELICIAS DULCES</h3>
+              <h5 class="h5-descripcion">
+                La mejor gama de postres para disfrutar.
+              </h5>
+            </div>
+          </div>
+          <div class="carousel-item" data-interval="3000">
+            <a href="pages/menuTragos.html">
+              <img
+                src="./assets/images/Tragos.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </a>
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="h3-carousel">TRAGOS INCREIBLES</h3>
+              <h5 class="h5-descripcion">
+                El mejor menu de tragos a tu disposicion.
+              </h5>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-target="#carouselExampleFade"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-target="#carouselExampleFade"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="wrap-footer">
+        <div class="text-element-footer element-footer">
+          <h3 class="main-c">Web de Restaurante</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
+            blanditiis hic quaerat nesciunt, labore eligendi consequatur
+            voluptas dolores earum soluta tenetur iure officia error accusamus?
+          </p>
+        </div>
+        <div class="text-element-footer element-footer">
+          <h5>Dirección</h5>
+          <ul>
+            <li>123 Calle Principal</li>
+            <li>Córdoba Capital</li>
+            <li>Mvl: (+54) 351 00 00 00</li>
+            <li>Tel: (+54) 351 00 00 00</li>
+          </ul>
+        </div>
+        <div class="text-element-footer link-elements-footer element-footer">
+          <h5>Más Información</h5>
+          <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/pages/contact.html">Contacto</a></li>
+            <li><a href="/pages/form.html">Registrarse</a></li>
+            <li><a href="/pages/location.html">Sucursales</a></li>
+            <li><a href="/pages/servicios.html">Servicios</a></li>
+          </ul>
+        </div>
+        <div class="rrss-element-footer element-footer">
+          <h5>Redes Sociales</h5>
+          <ul>
+            <li>
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="nofollow noopener noreferer"
+                ><img
+                  src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtNTEyIDc1djM2MmMwIDQxLjM5ODQzOC0zMy42MDE1NjIgNzUtNzUgNzVoLTEyMWwtMzAtMzBoLTMwbC0zMCAzMGgtMTUxYy00MS4zOTg0MzggMC03NS0zMy42MDE1NjItNzUtNzV2LTM2MmMwLTQxLjM5ODQzOCAzMy42MDE1NjItNzUgNzUtNzVoMzYyYzQxLjM5ODQzOCAwIDc1IDMzLjYwMTU2MiA3NSA3NXptMCAwIiBmaWxsPSIjNzk4NGViIi8+PHBhdGggZD0ibTUxMiA3NXYzNjJjMCA0MS4zOTg0MzgtMzMuNjAxNTYyIDc1LTc1IDc1aC0xMjFsLTMwLTMwaC0xNXYtNDgyaDE2NmM0MS4zOTg0MzggMCA3NSAzMy42MDE1NjIgNzUgNzV6bTAgMCIgZmlsbD0iIzQ2NjFkMSIvPjxwYXRoIGQ9Im0zMTYgMTgwdjYwaDkwbC0xNSA5MGgtNzV2MTgyaC05MHYtMTgyaC02MHYtOTBoNjB2LTYwYzAtMzMuMzAwNzgxIDE4LjMwMDc4MS02Mi40MDIzNDQgNDUtNzggMTMuMTk5MjE5LTcuNSAyOC44MDA3ODEtMTIgNDUtMTJoOTB2OTB6bTAgMCIgZmlsbD0iI2VjZWNmMSIvPjxwYXRoIGQ9Im0zMTYgMTgwdjYwaDkwbC0xNSA5MGgtNzV2MTgyaC00NXYtNDEwYzEzLjE5OTIxOS03LjUgMjguODAwNzgxLTEyIDQ1LTEyaDkwdjkwem0wIDAiIGZpbGw9IiNlMmUyZTciLz48L3N2Zz4="
+                  alt="icono redes sociales"
+              /></a>
+            </li>
+            <li>
+              <a href="mailto:info@info.com"
+                ><img
+                  src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIC0zMSA1MTIgNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Im0yMTEgMjcwLTQwLjkxNzk2OSA0My42NzU3ODEgMTAuOTE3OTY5IDc2LjMyNDIxOSAxMjAtOTB6bTAgMCIgZmlsbD0iIzAwYzBmMSIvPjxwYXRoIGQ9Im0wIDE4MCAxMjEgNjAgOTAgMzAgMjEwIDE4MCA5MS00NTB6bTAgMCIgZmlsbD0iIzc2ZTJmOCIvPjxwYXRoIGQ9Im0xMjEgMjQwIDYwIDE1MCAzMC0xMjAgMjEwLTE4MHptMCAwIiBmaWxsPSIjMjVkOWY4Ii8+PC9zdmc+"
+                  alt="icono redes sociales"
+              /></a>
+            </li>
+            <li>
+              <a href="https://wa.me/600112233"
+                ><img
+                  src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMjU2IDBjLTE0MC42OTkyMTkgMC0yNTYgMTE1LjMwMDc4MS0yNTYgMjU2IDAgNDYuNSAxMi41OTc2NTYgOTEuNSAzNi4zMDA3ODEgMTMxLjEwMTU2MmwtMzYuMzAwNzgxIDEyNC44OTg0MzggMTI0Ljg5ODQzOC0zNi4zMDA3ODFjMzkuNjAxNTYyIDIzLjY5OTIxOSA4NC42MDE1NjIgMzYuMzAwNzgxIDEzMS4xMDE1NjIgMzYuMzAwNzgxIDE0MC42OTkyMTkgMCAyNTYtMTE1LjMwMDc4MSAyNTYtMjU2cy0xMTUuMzAwNzgxLTI1Ni0yNTYtMjU2em0wIDAiIGZpbGw9IiMwMGRkN2IiLz48cGF0aCBkPSJtNTEyIDI1NmMwIDE0MC42OTkyMTktMTE1LjMwMDc4MSAyNTYtMjU2IDI1NnYtNTEyYzE0MC42OTkyMTkgMCAyNTYgMTE1LjMwMDc4MSAyNTYgMjU2em0wIDAiIGZpbGw9IiMwMGNjNzEiLz48cGF0aCBkPSJtNDE3LjE5OTIxOSAzNjQuMzAwNzgxLTEyIDExLjY5OTIxOWMtMTYuODAwNzgxIDE2LjgwMDc4MS01NS44MDA3ODEgMTUuNTk3NjU2LTgwLjY5OTIxOSAxMC44MDA3ODEtMjIuMTk5MjE5LTQuMTk5MjE5LTQ2LTE0LjEwMTU2Mi02OC41LTI3LjkwMjM0My02MS4xOTkyMTktMzcuMTk5MjE5LTExNi42OTkyMTktMTAzLjE5OTIxOS0xMzAuMTk5MjE5LTE2Mi41OTc2NTctOS4zMDA3ODEtNDAuMjAzMTI1LTQuMTk5MjE5LTc1IDktODguNWwxMi0xMmM2LjYwMTU2My02LjMwMDc4MSAxNy4wOTc2NTctNi4zMDA3ODEgMjMuNjk5MjE5IDBsNDcuNjk5MjE5IDQ3LjY5OTIxOWMzLjMwMDc4MSAzLjMwMDc4MSA1LjEwMTU2MiA3LjUgNS4xMDE1NjIgMTJzLTEuODAwNzgxIDguNjk5MjE5LTUuMTAxNTYyIDEybC0xMiAxMS42OTkyMTljLTEyLjg5ODQzOCAxMy4xOTkyMTktMTIuODk4NDM4IDM0LjUgMCA0Ny42OTkyMTlsNDkuODAwNzgxIDQ4LjkwMjM0MyAyOS4wOTc2NTYgMjguODAwNzgxYzEzLjIwMzEyNSAxMy4xOTkyMTkgMzUuNTAzOTA2IDEzLjE5OTIxOSA0OC43MDMxMjUgMGwxMS42OTkyMTktMTIuMDAzOTA2YzYuMzAwNzgxLTYgMTcuNjk5MjE5LTYgMjQgMGw0Ny42OTkyMTkgNDcuNzAzMTI1YzYuMzAwNzgxIDYuNTk3NjU3IDYuNjAxNTYyIDE3LjA5NzY1NyAwIDI0em0wIDAiIGZpbGw9IiNlY2VjZjEiLz48cGF0aCBkPSJtNDE3LjE5OTIxOSAzNjQuMzAwNzgxLTEyIDExLjY5OTIxOWMtMTYuODAwNzgxIDE2LjgwMDc4MS01NS44MDA3ODEgMTUuNTk3NjU2LTgwLjY5OTIxOSAxMC44MDA3ODEtMjIuMTk5MjE5LTQuMTk5MjE5LTQ2LTE0LjEwMTU2Mi02OC41LTI3LjkwMjM0M3YtODMuMDk3NjU3bDI5LjA5NzY1NiAyOC44MDA3ODFjMTMuMjAzMTI1IDEzLjE5OTIxOSAzNS41MDM5MDYgMTMuMTk5MjE5IDQ4LjcwMzEyNSAwbDExLjY5OTIxOS0xMi4wMDM5MDZjNi4zMDA3ODEtNiAxNy42OTkyMTktNiAyNCAwbDQ3LjY5OTIxOSA0Ny43MDMxMjVjNi4zMDA3ODEgNi41OTc2NTcgNi42MDE1NjIgMTcuMDk3NjU3IDAgMjR6bTAgMCIgZmlsbD0iI2UyZTJlNyIvPjwvc3ZnPg=="
+                  alt="icono redes sociales"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-creds">
+        <div class="copy-creds">
+          <p>©2024 · Todos los derechos reservados.</p>
+        </div>
+        <div class="legal-creds">
+          <ul>
+            <li><a href="/politica-privacidad">Política de Privacidad</a></li>
+            <li><a href="/politica-cookies">Política de Cookies</a></li>
+            <li><a href="/aviso-legal">Aviso Legal</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
